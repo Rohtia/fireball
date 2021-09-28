@@ -1,0 +1,85 @@
+
+#background {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+h1 {
+  color: #f56016;
+  text-align: center;
+  font-size: 65px;
+}
+
+body {
+  background-image: url(https://rohtia.files.wordpress.com/2021/09/stone_wall.jpg);
+}
+
+div {
+
+}
+#fireball-glow {
+  background-image: radial-gradient(60px, rgb(186, 62, 0, 0.5), rgb(128, 52, 14, 0));
+  position: fixed;
+  top: 46%;
+  left: 48%;
+  bottom: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation-name: cast;
+  animation-duration: 2s;
+  animation-delay: 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+ }
+#fireball {
+  background-image: radial-gradient(35px, rgb(245, 96, 22, 1), rgb(186, 62, 0, 0.75));
+  position: fixed;
+  top: 48%;
+  left: 49%;
+  bottom: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  animation-name: cast2;
+  animation-duration: 2s;
+  animation-delay: 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#fireball-center {
+  background-image: radial-gradient(10px, rgb(217, 144, 26), #f56016);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  bottom: 60px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  animation-name: cast3;
+  animation-duration: 2s;
+  animation-delay: 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cast {
+  100% {
+  /*  bottom: 60%;*/
+    transform: scale(450%);
+  }
+}
+
+@keyframes cast2 {
+  100% {
+  /*  bottom: 62%;*/
+    transform: scale(300%);
+  }
+}
+
+@keyframes cast3 {
+  100% {
+   /*bottom: 65%;*/
+   transform: scale(300%);
+  }
+}

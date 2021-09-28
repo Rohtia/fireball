@@ -1,0 +1,29 @@
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 65px;
+}
+
+body {
+  background-image: url(https://rohtia.files.wordpress.com/2021/09/stone_wall.jpg);
+}
+
+.spell {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  background-color: #595959;
+}
+
+.submit {
+  a {
+    text-decoration-style: none;
+  }
+  a:link {
+    color: #f56016;
+  }
+  a:visited {
+    color: #f56016;
+    background-color: #595959
+  }
+}
